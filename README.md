@@ -1,8 +1,14 @@
 # Java Automation tool/chatbot Google maps Scrapper
 
-This is version of my google_map_query tool originely made with python, adapted to java for a colege project. It implement the same functionality, using Selenium to query information like: Name, Address, Website & Phone number.
-I had problems running the selenium code diretly so i used a javascript executer to run the selenium code. I implemented a higher level chatbot to the tool as requered by my project, with a list of FAQ, and used a technique called FuzzyScore
-chosen becouse i used a simialar one in python called FuzzyWuzzy on my "Mluz.db-project" repository, in there it is used to search for names with higher acuracy. 
+This is a version of my google_map_query tool originely made with python, adapted to java for a college project. It implement the same functionality, using Selenium to query information like: Name, Address, Website & Phone number from businesses.
+Original project:
+
+https://github.com/Superjoa10/Google-Maps-Scraper-Bussiness-Client-Capture ;
+
+It does this by opening chrome with selenium, this code uses a javascript emulator to access selenium. It takes the location and bussiness type you typed, it opens the location on Maps to better visualize the itens, then it scrolls the page rendering all the objects, then clicks and scrapes them one by one.
+
+I implemented a higher level chatbot to the tool as requered by my project, with a list of FAQ, and used a technique called FuzzyScore to connect questions with the desired answer, doing so by assinging a score of likeness to each of them, determining which is closer to it.
+Chosen becouse i used a similar one in python called FuzzyWuzzy on my "Mluz.db-project" repository, in there it is used to search for names with higher accuracy. 
 
 https://github.com/Superjoa10/Mluz.db-projects ; 
 
